@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+#main{
+    padding: 100px;
+}
+.subHeading{
+    color: white;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.search{
+    width: 400px;
+    height: 35px;
+    position: relative;
+}
+#input{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.2rem;
+    border: 1px solid blue;
+    outline: 2px solid blueviolet;
+}
+#but{
+position: absolute;
+width: 100px;
+height: 30px;
+border-radius: 10px;
+right: 1px;
+top: 5px;
+cursor: pointer;
+border: none;
+outline: none;
+background-color: black;
+color: white;
+}
+#but:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s;
+}
+#container{
+    margin-top: 50px;
+}
+.username{
+    color: white;
+}
+.link{
+    color: white;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.profile_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.username{
+    margin-bottom: 0px;
+}
+.link{
+    margin-top: 0px;
+    color: blue;
+}
